@@ -139,7 +139,6 @@ header {
   align-items: center;
   padding: 0px 100px;
   gap: 15px;
-  
 }
 .item {
   text-align: center;
@@ -156,31 +155,79 @@ header {
   margin-top: 8px;
 }
 /* hot deal css */
-.hot-deal-container{
-    display: flex;
-    padding: 50px 250px;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    justify-content: space-between;
-    align-items: center;
+.hot-deal-container {
+  display: flex;
+  padding: 50px 240px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
-.hot-deal-left{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hot-deal-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.hot-title{
-    font-size: 28px
+.hot-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
 }
-.deal-description{
-    width: 80%;
-    text-align: center
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 22px;
 }
-.hot-btn{
-    margin: 0 auto;
-}
-.hot-deal-right img{
-    width:100%;
+.hot-btn {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  padding: 15px 26px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
 
+  width: fit-content;
+}
+.hot-deal-right img {
+  width: 100%;
+}
+.social-container {
+  margin-top: 100px;
+  text-align: center;
+}
+.social-title {
+  color: #272727;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 17px;
+}
+.social-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px; /* 166.667% */
+  padding: 0 260px
+}
+.social-img-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+.social-img-box{
+  width: 225px; 
+  height: 280px;
+}
+.social-img-box img{
+  width: 100%;
+  height: 100%
 }
