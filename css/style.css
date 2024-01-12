@@ -365,6 +365,11 @@ footer {
   }
   .footer-description{
     padding: 20px 25px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .footer-title{
+    font-size: 32px;
   }
   
 /* get deal section */
@@ -443,6 +448,7 @@ footer {
   .featured-container{
     width: 100%;
     padding: 0 25px;
+    margin-top: 50px;
   }
 
 /* header section */
