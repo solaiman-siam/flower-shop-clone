@@ -387,6 +387,7 @@ footer {
 
   .get-deal{
     width: 100%;
+    min-width: 0;
   }
 
   /* social css */
@@ -429,13 +430,19 @@ footer {
     gap: 50px;
 
   }
+  .support-mobile{
+    min-width: 0;
+  }
 
   .img-box-container{
     flex-direction: column;
     padding: 0 ;
     gap: 50px;
   }
-
+  .featured-container{
+    width: 100%;
+    padding: 0 25px;
+  }
 
 /* header section */
 
