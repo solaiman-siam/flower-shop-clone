@@ -361,6 +361,7 @@ footer {
     flex-direction: column;
     height: 230px;
     justify-content: center;
+    
   }
   .footer-description{
     padding: 20px 25px;
@@ -480,7 +481,14 @@ footer {
   text-align: center;
 }
 
+.featured-mobile{
+  width: 100%;
+  min-width: 0;
+}
 
-
+.social-mobile{
+  width: 100%;
+  min-width: 0
+}
 
 }
